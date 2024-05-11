@@ -17,6 +17,9 @@ const Header = () => {
         <div>
             <Link href="/shop">Shop</Link>
         </div>
+        <div>
+            <Link href="/blog">Blog</Link>
+        </div>
 
     </section>
   )
