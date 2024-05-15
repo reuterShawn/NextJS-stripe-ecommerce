@@ -12,7 +12,7 @@ const config: Config = {
   theme: {
     daisyui: {
       themes: [
-        "light", "dark", "business",
+        "light", "dark", "retro",
 
       ],
     },
