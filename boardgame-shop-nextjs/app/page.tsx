@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Image from "next/image";
-import { getCategorizedArticles } from "./lib/articles";
+import { getCategorizedArticles } from "./(blog)/articles";
 import ArticleItemList from "./components/ArticleListItem";
 
 const page = () => {

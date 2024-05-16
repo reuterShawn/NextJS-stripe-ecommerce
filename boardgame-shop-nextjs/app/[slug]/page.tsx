@@ -1,6 +1,6 @@
 import Link from "next/link"
 import {ArrowLeftIcon } from "@heroicons/react/24/solid"
-import { getArticleData } from "../lib/articles"
+import { getArticleData } from "../(blog)/articles"
 
 const Article = async ({params}: {params: {slug: string}})=> {
     const articleData = await getArticleData(params.slug)
