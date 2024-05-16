@@ -10,12 +10,18 @@ const config: Config = {
 
   plugins: [require('daisyui')],
   theme: {
-    daisyui: {
-      themes: [
-        "light", "dark", "retro",
-
-      ],
+    extend: {
+      fontFamily: {
+        cormorantGaramond: ["var(--font-cormorant-garamond)", "serif"],
+        poppins: ["var(--font-poppins", "sans-serif"],
+      }
     },
+    // daisyui: {
+    //   themes: [
+    //     "light", "dark"
+
+    //   ],
+    // },
   },
 };
 export default config;
